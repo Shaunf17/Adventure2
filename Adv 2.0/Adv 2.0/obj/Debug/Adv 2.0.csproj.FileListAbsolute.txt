@@ -1,0 +1,6 @@
+c:\users\developer\documents\visual studio 2013\Projects\Adv 2.0\Adv 2.0\bin\Debug\Adv 2.0.exe.config
+c:\users\developer\documents\visual studio 2013\Projects\Adv 2.0\Adv 2.0\bin\Debug\Adv 2.0.exe
+c:\users\developer\documents\visual studio 2013\Projects\Adv 2.0\Adv 2.0\bin\Debug\Adv 2.0.pdb
+c:\users\developer\documents\visual studio 2013\Projects\Adv 2.0\Adv 2.0\obj\Debug\Adv 2.0.csprojResolveAssemblyReference.cache
+c:\users\developer\documents\visual studio 2013\Projects\Adv 2.0\Adv 2.0\obj\Debug\Adv 2.0.exe
+c:\users\developer\documents\visual studio 2013\Projects\Adv 2.0\Adv 2.0\obj\Debug\Adv 2.0.pdb
