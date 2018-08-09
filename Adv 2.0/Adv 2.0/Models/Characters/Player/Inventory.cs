@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Adv_2._0.Characters.Player
+namespace Adv_2._0.Models.Characters.Player
 {
-    public class Player : Character
+    class Inventory
     {
-        public Player()
-        {
-
-        }
     }
 }

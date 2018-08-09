@@ -9,7 +9,7 @@ using Adv_2._0.Menus;
 
 namespace Adv_2._0
 {
-    public class Program
+    public static class Program
     {
         public static void Main(string[] args)
         {

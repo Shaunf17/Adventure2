@@ -41,7 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Combat\Combat.cs" />
     <Compile Include="Models\Characters\Character.cs" />
+    <Compile Include="Models\Characters\Player\Inventory.cs" />
     <Compile Include="Models\Characters\Player\Player.cs" />
     <Compile Include="Display.cs" />
     <Compile Include="Menus\MainMenu.cs" />
@@ -50,16 +52,16 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\Print.cs" />
+    <Compile Include="Utilities\Sound.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Combat\" />
     <Folder Include="Map\" />
     <Folder Include="Models\Characters\Enemies\" />
     <Folder Include="Models\Items\Consumables\" />
-    <Folder Include="Models\Items\Weapons\" />
+    <Folder Include="Models\Items\Weapons\Swords\1H Swords\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
