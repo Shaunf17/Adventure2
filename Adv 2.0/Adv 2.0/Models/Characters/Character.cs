@@ -8,6 +8,7 @@ namespace Adv_2._0.Characters
 {
     public class Character
     {
+        // Basic info
         public string Name { get; set; }
         public int Health { get; set; }
         public int Mana { get; set; }
@@ -21,7 +22,6 @@ namespace Adv_2._0.Characters
         public int Agility { get; set; }
         public int Luck { get; set; }
 
-        // Related Classes
-        
+        // Navigation Properties
     }
 }

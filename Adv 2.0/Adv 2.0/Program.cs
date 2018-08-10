@@ -9,7 +9,10 @@ using Adv_2._0.Menus;
 
 namespace Adv_2._0
 {
-    public static class Program
+    /// <summary>
+    /// Main program class. Contains main method as entry point.
+    /// </summary>
+    public class Program
     {
         public static void Main(string[] args)
         {
@@ -18,7 +21,7 @@ namespace Adv_2._0
         }
 
         /// <summary>
-        /// Method to perform unit tests on the application
+        /// Method to perform unit tests on the application.
         /// </summary>
         public static void Test()
         {
