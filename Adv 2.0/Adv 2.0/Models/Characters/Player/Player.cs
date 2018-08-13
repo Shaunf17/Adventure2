@@ -18,7 +18,7 @@ namespace Adv_2._0.Characters.Player
         // Navigation Properties
         public Inventory Inventory { get; set; }
 
-        public void Player()
+        public Player()
         {
 
         }

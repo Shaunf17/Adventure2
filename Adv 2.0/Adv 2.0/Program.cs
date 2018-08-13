@@ -16,6 +16,10 @@ namespace Adv_2._0
     {
         public static void Main(string[] args)
         {
+            Console.Title = "Adventure";
+            Console.SetWindowSize(100, 50);
+
+
             MainMenu.Init();
             MainMenu.MainLoop();
         }

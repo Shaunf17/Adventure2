@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Adv_2._0.Menus
 {
-    class TitleMenu
+    public class TitleMenu
     {
     }
 }

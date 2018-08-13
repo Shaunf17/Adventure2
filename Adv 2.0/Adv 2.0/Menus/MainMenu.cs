@@ -1,4 +1,6 @@
-﻿using Adv_2._0.Utilities;
+﻿using Adv_2._0.Characters;
+using Adv_2._0.Characters.Player;
+using Adv_2._0.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +18,7 @@ namespace Adv_2._0.Menus
         // Declare global variables
         static string userInput;
         static string[] userInputSplit;
+        static Random random;
 
         /// <summary>
         /// Initialises global variables, creates new game objects and executes the main game loop
@@ -23,7 +26,7 @@ namespace Adv_2._0.Menus
         public static void Init()
         {
             userInput = "";
-            Console.Title = "Adventure";
+            random = new Random();
         }
 
         /// <summary>
@@ -31,16 +34,32 @@ namespace Adv_2._0.Menus
         /// </summary>
         public static void MainLoop()
         {
+            Player p = new Player() { Name = "Bob", Health = 100 };
+            List<Character> e = new List<Character>();
+            e.Add(new Character { Name = "Hog", Health = 20 });
+
             while (!userInput.ToLower().Equals("exit"))
             {
                 Console.Write("> ");
                 userInput = Console.ReadLine();
 
-                if (userInput.ToLower().Equals("exit"))
-                    break;
+                //if (userInput.ToLower().Equals("exit"))
+                //    break;
 
-                if (userInput.ToLower().Equals("combat"))
-                    Combat.init();
+                //if (userInput.ToLower().Equals("combat"))
+                //    Combat.init(p, e);
+
+                switch (userInput.ToLower())
+                {
+                    case "exit":
+                        break;
+
+                    case "combat":
+                        List<Character> list = new List<Character>();
+                        list.Add(new Character { Name = "awea", Health = random.Next(100) });
+                        Combat.init(p, list);
+                        break;
+                }
             }
         }
 

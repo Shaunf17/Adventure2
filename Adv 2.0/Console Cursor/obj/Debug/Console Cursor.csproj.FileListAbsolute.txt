@@ -4,3 +4,9 @@ C:\Users\developer\Documents\Visual Studio 2013\Projects\Adv 2.0\Console Cursor\
 C:\Users\developer\Documents\Visual Studio 2013\Projects\Adv 2.0\Console Cursor\obj\Debug\Console Cursor.csprojResolveAssemblyReference.cache
 C:\Users\developer\Documents\Visual Studio 2013\Projects\Adv 2.0\Console Cursor\obj\Debug\Console Cursor.exe
 C:\Users\developer\Documents\Visual Studio 2013\Projects\Adv 2.0\Console Cursor\obj\Debug\Console Cursor.pdb
+C:\Users\User\Source\Repos\Adventure2\Adv 2.0\Console Cursor\bin\Debug\Console Cursor.exe.config
+C:\Users\User\Source\Repos\Adventure2\Adv 2.0\Console Cursor\bin\Debug\Console Cursor.exe
+C:\Users\User\Source\Repos\Adventure2\Adv 2.0\Console Cursor\bin\Debug\Console Cursor.pdb
+C:\Users\User\Source\Repos\Adventure2\Adv 2.0\Console Cursor\obj\Debug\Console Cursor.csprojResolveAssemblyReference.cache
+C:\Users\User\Source\Repos\Adventure2\Adv 2.0\Console Cursor\obj\Debug\Console Cursor.exe
+C:\Users\User\Source\Repos\Adventure2\Adv 2.0\Console Cursor\obj\Debug\Console Cursor.pdb

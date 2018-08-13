@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Adv_2._0.Models.Characters.Player
 {
-    class Inventory
+    public class Inventory
     {
     }
 }

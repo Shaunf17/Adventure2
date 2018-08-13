@@ -4,3 +4,9 @@ c:\users\developer\documents\visual studio 2013\Projects\Adv 2.0\Adv 2.0\bin\Deb
 c:\users\developer\documents\visual studio 2013\Projects\Adv 2.0\Adv 2.0\obj\Debug\Adv 2.0.csprojResolveAssemblyReference.cache
 c:\users\developer\documents\visual studio 2013\Projects\Adv 2.0\Adv 2.0\obj\Debug\Adv 2.0.exe
 c:\users\developer\documents\visual studio 2013\Projects\Adv 2.0\Adv 2.0\obj\Debug\Adv 2.0.pdb
+C:\Users\User\Source\Repos\Adventure2\Adv 2.0\Adv 2.0\bin\Debug\Adv 2.0.exe.config
+C:\Users\User\Source\Repos\Adventure2\Adv 2.0\Adv 2.0\obj\Debug\Adv 2.0.exe
+C:\Users\User\Source\Repos\Adventure2\Adv 2.0\Adv 2.0\obj\Debug\Adv 2.0.pdb
+C:\Users\User\Source\Repos\Adventure2\Adv 2.0\Adv 2.0\obj\Debug\Adv 2.0.csprojResolveAssemblyReference.cache
+C:\Users\User\Source\Repos\Adventure2\Adv 2.0\Adv 2.0\bin\Debug\Adv 2.0.exe
+C:\Users\User\Source\Repos\Adventure2\Adv 2.0\Adv 2.0\bin\Debug\Adv 2.0.pdb
