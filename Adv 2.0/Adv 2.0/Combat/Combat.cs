@@ -11,7 +11,7 @@ namespace Adv_2._0
 {
     public static class Combat
     {
-        public static void init(Player player, Character? Chara, List<Character> targets)
+        public static void init(Player player, List<Character> targets)
         {
             //Loop(p, e);
             Loop(player, targets);
@@ -43,7 +43,7 @@ namespace Adv_2._0
                         break;
                 }
 
-                EnemyAttack(Player player, 
+                EnemyAttack(player, targets);
             }
 
             if (player.Health <= 0)
@@ -68,6 +68,17 @@ namespace Adv_2._0
             }
 
             return atLeastOneAlive;
+        }
+
+        public static void EnemyAttack(Player player, List<Character> targets)
+        {
+            Random rng = new Random();
+            foreach (var enemy in targets)
+            {
+                int damage = rng.Next(1, 10);
+                Print.SlowLine(String.Format("<red>{0}</red> attacks player for <red>{1}</red> damage!", enemy.Name, damage));
+                player.Health -= damage;
+            }
         }
     }
 }
