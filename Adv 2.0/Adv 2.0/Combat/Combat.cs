@@ -26,20 +26,24 @@ namespace Adv_2._0
 
             while (player.Health > 0 && AreEnemiesAlive(targets))
             {
+                Console.WriteLine("");
                 Print.SlowLine(String.Format("Player Health: {0}", player.Health), 50);
                 foreach (var enemy in targets)
                 {
                     Print.SlowLine(String.Format("<red>{0}</red> Health: {1}", enemy.Name, enemy.Health), 50);
                 }
 
+                Console.Write("> ");
                 userInput = Console.ReadLine();
                 split = userInput.Split(' ');
+                Console.WriteLine("");
 
                 switch (userInput.ToLower())
                 {
                     case "attack":
-                        targets.First().Health = targets.First().Health - 4;
-                        
+                        targets.First().Health = targets.First().Health - 4;    //Change to player.attack() method
+                        Print.SlowLine(String.Format("[ <green>{0}</green> attacks <red>{1}</red> for <red>4</red> damage! ]", player.Name, targets.First().Name));
+
                         break;
                 }
 
@@ -76,7 +80,7 @@ namespace Adv_2._0
             foreach (var enemy in targets)
             {
                 int damage = rng.Next(1, 10);
-                Print.SlowLine(String.Format("<red>{0}</red> attacks player for <red>{1}</red> damage!", enemy.Name, damage));
+                Print.SlowLine(String.Format("[ <red>{0}</red> attacks player for <red>{1}</red> damage! ]", enemy.Name, damage));
                 player.Health -= damage;
             }
         }
